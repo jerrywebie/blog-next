@@ -6,32 +6,8 @@ import 'swiper/css';
 
 import Author from "./Author";
 
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     direction: 'horizontal',
-//     loop: true,
-//     speed: 200,
-//     spaceBetween: 10,
-//     slidesPerView: 1,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
-//     scrollbar: {
-//       el: '.swiper-scrollbar',
-//     },
-//   })
 
-export default function section1() {
+export default function SliderSection() {
     SwiperCore.use([Autoplay])
     const bg = {
         background: "url('/images/banner.png') no-repeat",
@@ -39,25 +15,6 @@ export default function section1() {
     }
   
   return (
-   
-//      <div className="swiper">
-  
-//   <div className="swiper-wrapper">
-    
-//     <div className="swiper-slide"><span>slide 1</span></div>
-//     <div className="swiper-slide"><span>slide 2</span></div>
-//     <div className="swiper-slide"><span>slide 3</span></div>
-//   </div>
- 
-//   <div className="swiper-pagination"></div>
-
- 
-//   <div className="swiper-button-prev"></div>
-//   <div className="swiper-button-next"></div>
-
-  
-//   <div className="swiper-scrollbar"></div>
-// </div>
     <section className="py-16" style={bg}>
         <div className="container mx-auto md:px-20">
             <h1 className="font-bold text-4xl pb-12 text-center">Trending</h1>
