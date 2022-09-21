@@ -20,7 +20,7 @@ function Post() {
     return (
         <div className="flex gap-5">
             <div className="flex flex-col justify-start">
-            <Link href={"/"}><a><Image src={"/images/articles/posts/img1.jpg"} className="rounded" width={250} height={200} /></a></Link>
+            <Link href={"/"}><a><Image src={"/images/articles/posts/img1.jpg"} className="rounded" width={250} height={200} alt="related post" /></a></Link>
             </div>
             <div className="flex flex-col justify-center">
                 <div className="cat">
